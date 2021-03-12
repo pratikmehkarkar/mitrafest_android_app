@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mitratechfest.shubhampratiktechfest.mitrafest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/esperanza"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.Eventdetails" />
+        <activity android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.RegisterActivity"
+            android:label="Register"/>
+        <activity android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.RegIdActivity" />
+        <activity
+            android:name="org.mitratechfest.shubhampratiktechfest.mitrafest.Esperanza"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>    </application>
+
+</manifest>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    tools:context="org.mitratechfest.shubhampratiktechfest.mitrafest.Eventdetails">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/registerAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/post" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="3dp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView android:id="@+id/textViewResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:text="Description :"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:textSize="25dp"
+            android:paddingTop="10px"
+            android:layout_gravity="bottom"
+            android:textColor="#9BA4A3" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:text="Prizes :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px" />
+        <TextView
+            android:id="@+id/prize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:textSize="25dp"
+            android:paddingTop="10px"
+            android:layout_gravity="bottom"
+            android:textColor="#9BA4A3"/>
+
+        <View style="@style/Divider"/>
+        <TextView
+            android:text="Rules &amp; Regulations  :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px" />
+        <TextView
+            android:id="@+id/rules"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:textSize="25dp"
+            android:paddingTop="10px"
+            android:layout_gravity="bottom"
+            android:textColor="#9BA4A3"/>
+
+        <View style="@style/Divider"/>
+        <TextView
+            android:text="Entry Fees  :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px" />
+        <TextView
+            android:id="@+id/fees"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:textSize="25dp"
+            android:paddingTop="10px"
+            android:layout_gravity="bottom"
+            android:textColor="#9BA4A3"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:text="Contact :"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px" />
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:textSize="25dp"
+            android:paddingTop="10px"
+            android:layout_gravity="bottom"
+            android:textColor="#9BA4A3"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

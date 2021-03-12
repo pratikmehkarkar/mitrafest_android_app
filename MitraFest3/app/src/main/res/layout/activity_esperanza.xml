@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalbck"
+    tools:context="org.mitratechfest.shubhampratiktechfest.mitrafest.Esperanza">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ESPERANZA'17"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/head"
+        android:textSize="35dp"
+        android:visibility="gone"
+        android:layout_below="@+id/imageanim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/imageanim"
+        android:src="@drawable/rocket"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Presented by"
+        android:id="@+id/present"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:layout_above="@+id/prmit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRMIT &amp; R, Badnera"
+        android:id="@+id/prmit"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/esperanza"/>
+
+
+</RelativeLayout>

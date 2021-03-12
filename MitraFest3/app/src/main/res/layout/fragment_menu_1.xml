@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    android:background="@drawable/finalbck">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false">
+
+    <LinearLayout
+        android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/create"
+            android:src="@drawable/btn2"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/hack"
+            android:src="@drawable/btn3"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/robotic"
+            android:src="@drawable/btn4"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/rubik"
+            android:src="@drawable/btn5"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/hotw"
+            android:src="@drawable/btn6"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/btn7"
+            android:id="@+id/web"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+    <LinearLayout
+       android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/code"
+            android:src="@drawable/btn8"
+            android:background="@android:color/transparent"  />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/lang"
+            android:src="@drawable/catia"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cons"
+            android:src="@drawable/btn1"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/tech"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn18"
+             />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/btn10"
+            android:id="@+id/techdocx"
+            android:background="@android:color/transparent" />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/robow"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn11"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/businessplan"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn12"
+                />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/btn13"
+                android:id="@+id/iplau"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/cont"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn14"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/circuitexp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn15"
+                />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/btn16"
+                android:id="@+id/sshot"
+                android:background="@android:color/transparent" />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/mixx"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn17"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/lanGaming"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn19"
+                />
+            <ImageButton
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/btn20"
+                android:id="@+id/paintBall"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+    </LinearLayout>
